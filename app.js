@@ -24,8 +24,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         });
     }
 })
-const products = [
-  // --- Fine Wines ---
+const productsData = [
   {
     id: 1,
     name: "Château Margaux Grand Vin",
@@ -67,7 +66,6 @@ const products = [
     description: "Vibrant and refreshing with punchy citrus, lemongrass, and crisp herbal notes."
   },
 
-  // --- Rare Spirits ---
   {
     id: 5,
     name: "Macallan 18 Year Sherry Oak",
