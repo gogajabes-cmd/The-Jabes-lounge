@@ -226,3 +226,10 @@ footer {
     cursor: pointer;
     margin-top: 1rem;
 }
+.form-group input {
+    background-color: #121212;
+    border: 1px solid #333;
+    padding: 0.7rem;
+    border-radius: 4px;
+    color: #fff;
+}
