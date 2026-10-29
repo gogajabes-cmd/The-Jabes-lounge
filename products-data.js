@@ -1,22 +1,22 @@
 const productsData = [
   {
     id: 1,
-    name: "Château Margaux Grand Vin",
+    name: "Viceroy Brandy",
     category: "Fine Wine",
-    origin: "Bordeaux, France",
+    origin: " France",
     price: 12500.00,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=600&auto=format&fit=crop",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXsxSoRGnq-zZLjUR33CUgvk0ozB3F7ptD_80MneRxTQ&s=10",
     description: "An exceptional vintage with rich notes of blackcurrant, violet, and subtle oak."
   },
   {
     id: 2,
-    name: "Dom Pérignon Vintage Champagne",
-    category: "Fine Wine",
-    origin: "Champagne, France",
+    name: "Old Monk Rum",
+    category: "Vodka",
+    origin: "India",
     price: 24000.00,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?q=80&w=600&auto=format&fit=crop",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvdFxa4HpwbGl21ttCO9LJVfmZ8tLLJakLPzK3SwQPEA&s=10",
     description: "Crisp and effervescent with a delicate balance of fruit, brioche, and minerality."
   },
   {
