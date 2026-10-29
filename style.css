@@ -233,3 +233,16 @@ footer {
     border-radius: 4px;
     color: #fff;
 }
+.gallery-card {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+#lounge-gallery {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #121212; /* Matches your dark theme */
+    color: #ffffff;
+}
