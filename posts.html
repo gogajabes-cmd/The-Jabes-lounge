@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews & Posts | The Jabes Lounge</title>
+    <!-- Links your unified stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Shared Header Navigation -->
+    <header>
+        <div class="logo">
+            <h1>The Jabes Lounge</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="products.html">Products</a>
+            <a href="posts.html" class="active">Reviews</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <!-- Main Posts/Reviews Content -->
+    <main class="posts-container">
+        <h2>Customer Reviews & Posts</h2>
+        <p class="section-subtitle">See what our guests are saying about their experience at The Jabes Lounge.</p>
+
+        <!-- New Post / Review Form Section -->
+        <section class="review-form-section">
+            <h3>Leave a Review</h3>
+            <form id="review-form">
+                <div class="form-group">
+                    <label for="reviewer-name">Your Name:</label>
+                    <input type="text" id="reviewer-name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="review-text">Your Review:</label>
+                    <textarea id="review-text" rows="4" required placeholder="Share your experience..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Post Review</button>
+            </form>
+        </section>
+
+        <!-- Reviews Display Feed -->
+        <section class="reviews-feed-section">
+            <h3>Recent Posts</h3>
+            <div id="posts-feed" class="posts-feed">
+                <!-- JavaScript will dynamically inject review posts here, or static fallbacks can go below -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 The Jabes Lounge. All rights reserved.</p>
+    </footer>
+
+    <!-- Posts Logic Script -->
+    <script src="app.js"></script>
+
+</body>
+</html>
