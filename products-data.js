@@ -23,10 +23,10 @@ const productsData = [
     id: 3,
     name: "Opus One Red Blend",
     category: "Fine Wine",
-    origin: "Napa Valley, California",
+    origin: " California",
     price: 35000.00,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=600&auto=format&fit=crop",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqDDwoNzD5xZRGg0_3k0Ka7N9OgrDmNqInHNctK24dPg&s=10",
     description: "A harmonious synthesis of dark fruit aromas, silky tannins, and a persistent finish."
   },
   {
@@ -36,7 +36,7 @@ const productsData = [
     origin: "Marlborough, New Zealand",
     price: 7500.00,
     rating: 4.7,
-    image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=600&auto=format&fit=crop",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDCFftf71qnbaCy5hNLctsr9I9yc5Hd4LyvpVsNdMkJw&s=10",
     description: "Vibrant and refreshing with punchy citrus, lemongrass, and crisp herbal notes."
   },
 
@@ -47,7 +47,7 @@ const productsData = [
     origin: "Speyside, Scotland",
     price: 18000.00,
     rating: 5.0,
-    image: "https://images.unsplash.com/photo-1527281400683-1aae777175f8?q=80&w=600&auto=format&fit=crop",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg_2AnqozKVNDnc27QItr-_xJS78OG1joIvcL2Ecve7w&s=10",
     description: "Mature and complex, offering rich dried fruits, ginger, and hints of nutmeg."
   },
   {
@@ -57,7 +57,7 @@ const productsData = [
     origin: "Cognac, France",
     price: 32000.00,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?q=80&w=600&auto=format&fit=crop",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS60j4b8sTsHzNY_PdeaPaJ68QGi-KzhjisHu-cahxE0Q&s=10",
     description: "A harmonious blend of hundreds of exceptional eaux-de-vie aged to perfection."
   },
   {
@@ -67,7 +67,7 @@ const productsData = [
     origin: "Jalisco, Mexico",
     price: 21000.00,
     rating: 4.9,
-    image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=600&auto=format&fit=crop",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS60j4b8sTsHzNY_PdeaPaJ68QGi-KzhjisHu-cahxE0Q&s=10",
     description: "Ultra-premium artisanal tequila with smooth notes of vanilla, caramel, and toasted oak."
   },
   {
@@ -77,7 +77,7 @@ const productsData = [
     origin: "Osaka, Japan",
     price: 15500.00,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?q=80&w=600&auto=format&fit=crop",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW-K87L29C4U2yIOZUbp9Ry0n8x0HuUlMgPpIFzd513Q&s=10",
     description: "Luminous and delicate blend showcasing orange peel, white chocolate, and subtle mizunara oak."
   }
 ]
