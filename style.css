@@ -239,10 +239,5 @@ footer {
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
-}
-#lounge-gallery {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #121212; /* Matches your dark theme */
-    color: #ffffff;
+    object-fit: cover;
 }
