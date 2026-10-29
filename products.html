@@ -22,28 +22,12 @@
         <div id="product-container"></div>
     </main>
 
-    <hr>
-
     <footer>
         <p>&copy; 2026 The Jabes Lounge. All rights reserved.</p>
     </footer>
     <script src="products-data.js"></script>
-    <script>
-        const container = document.getElementById('product-container');
-        let htmlContent = '';
-        productsData.forEach(product => {
-            htmlContent += `
-                <div style="margin-bottom: 25px; border: 1px solid #444; padding: 15px; border-radius: 8px;">
-                    <img src="${product.image}" alt="${product.name}" width="150"><br>
-                    <h3>${product.name}</h3>
-                    <p>Category: ${product.category}</p>
-                    <p><strong>Price: ${product.price}</strong></p>
-                    <button type="button">Add to Cart</button>
-                </div>
-            `;
-        });
-        container.innerHTML = htmlContent;
-    </script>
+    <script src="app.js"></script>
+       
 
 </body>
 </html>

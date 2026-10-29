@@ -241,3 +241,21 @@ footer {
     transition: transform 0.3s ease;
     object-fit: cover;
 }
+div{
+margin-bottom: 25px; 
+border: 1px solid #444;
+ padding: 15px;
+ border-radius: 8px;
+}
+product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 25px;
+}
+  div{
+    margin-bottom: 25px; 
+    border: 1px solid #444; 
+    padding: 15px; 
+    border-radius: 8px;
+  }
+  
