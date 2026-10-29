@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const loginForm = document.getElementById('login-form');
     const loginMessage = document.getElementById('login-message');
+}
 
     if (loginForm) {
         loginForm.addEventListener('submit', (event) => {
