@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     }
 })
 const products = [
+  // --- Fine Wines ---
   {
     id: 1,
     name: "Château Margaux Grand Vin",
@@ -32,7 +33,7 @@ const products = [
     origin: "Bordeaux, France",
     price: 12500.00,
     rating: 4.9,
-    image: "images/chateau-margaux.jpg",
+    image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=600&auto=format&fit=crop",
     description: "An exceptional vintage with rich notes of blackcurrant, violet, and subtle oak."
   },
   {
@@ -42,7 +43,7 @@ const products = [
     origin: "Champagne, France",
     price: 24000.00,
     rating: 4.8,
-    image: "images/dom-perignon.jpg",
+    image: "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?q=80&w=600&auto=format&fit=crop",
     description: "Crisp and effervescent with a delicate balance of fruit, brioche, and minerality."
   },
   {
@@ -52,7 +53,7 @@ const products = [
     origin: "Napa Valley, California",
     price: 35000.00,
     rating: 4.9,
-    image: "images/opus-one.jpg",
+    image: "https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=600&auto=format&fit=crop",
     description: "A harmonious synthesis of dark fruit aromas, silky tannins, and a persistent finish."
   },
   {
@@ -62,7 +63,7 @@ const products = [
     origin: "Marlborough, New Zealand",
     price: 7500.00,
     rating: 4.7,
-    image: "images/cloudy-bay.jpg",
+    image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=600&auto=format&fit=crop",
     description: "Vibrant and refreshing with punchy citrus, lemongrass, and crisp herbal notes."
   },
 
@@ -74,17 +75,17 @@ const products = [
     origin: "Speyside, Scotland",
     price: 18000.00,
     rating: 5.0,
-    image: "images/macallan-18.jpg",
+    image: "https://images.unsplash.com/photo-1527281400683-1aae777175f8?q=80&w=600&auto=format&fit=crop",
     description: "Mature and complex, offering rich dried fruits, ginger, and hints of nutmeg."
   },
   {
     id: 6,
     name: "Hennessy Paradis Cognac",
     category: "Rare Spirits",
-    origin: " France",
+    origin: "Cognac, France",
     price: 32000.00,
     rating: 4.9,
-    image: "images/hennessy-paradis.jpg",
+    image: "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?q=80&w=600&auto=format&fit=crop",
     description: "A harmonious blend of hundreds of exceptional eaux-de-vie aged to perfection."
   },
   {
@@ -94,7 +95,7 @@ const products = [
     origin: "Jalisco, Mexico",
     price: 21000.00,
     rating: 4.9,
-    image: "images/clase-azul.jpg",
+    image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=600&auto=format&fit=crop",
     description: "Ultra-premium artisanal tequila with smooth notes of vanilla, caramel, and toasted oak."
   },
   {
@@ -104,7 +105,7 @@ const products = [
     origin: "Osaka, Japan",
     price: 15500.00,
     rating: 4.8,
-    image: "images/hibiki-harmony.jpg",
+    image: "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?q=80&w=600&auto=format&fit=crop",
     description: "Luminous and delicate blend showcasing orange peel, white chocolate, and subtle mizunara oak."
   }
-];
+]
