@@ -6,6 +6,8 @@
 ## Description about the shop 
 A modern, responsive wine and spirits online shop designed for customers to explore, select, and order their favorite drinks with ease.
 
+**Live site:**[ https://gogajabes-cmd.github.io/The-Jabes-lounge/]
+
 ##  Features
 
 - **Product Catalog:**
@@ -14,12 +16,21 @@ A modern, responsive wine and spirits online shop designed for customers to expl
 - **Responsive Design:** 
 - **Dark-Mode Vibe:**
 
+
 ## Technologies used
 
 - **HTML** 
 - **CSS**
 - **JSON DATAstorage****
 - **JAVASCRIPT**
+
+
+## contributing
+
+- **Contribution**
+- **Issues**
+- **Request are welcome**
+
 
 ## drinks Categories
 - **Whisky & Bourbon**
