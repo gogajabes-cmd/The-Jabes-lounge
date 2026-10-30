@@ -62,22 +62,24 @@ const productsData = [
   },
   {
     id: 7,
-    name: "Clase Azul Reposado Tequila",
+    name: "Talisker",
     category: "Rare Spirits",
-    origin: "Jalisco, Mexico",
+    origin: " Mexico",
     price: 21000.00,
     rating: 4.9,
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS60j4b8sTsHzNY_PdeaPaJ68QGi-KzhjisHu-cahxE0Q&s=10",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxaKFNSpKloIR4kvefBUsLWGfTQv4f3xLMD5h7ApvVPw&s=10",
     description: "Ultra-premium artisanal tequila with smooth notes of vanilla, caramel, and toasted oak."
   },
   {
     id: 8,
-    name: "Hibiki Japanese Harmony Whisky",
+    name: "The Glenlivet",
     category: "Rare Spirits",
-    origin: "Osaka, Japan",
-    price: 15500.00,
+    origin: "Osaka, ",
+    price: 9000.00,
     rating: 4.8,
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW-K87L29C4U2yIOZUbp9Ry0n8x0HuUlMgPpIFzd513Q&s=10",
+    image: "https://ik.imagekit.io/cvygf2xse/theglenlivet-v2/wp-content/uploads/2026/06/The-Glenlivet-Whisky-Sour.jpg?tr=q-80,w-1080",
     description: "Luminous and delicate blend showcasing orange peel, white chocolate, and subtle mizunara oak."
   }
 ]
+
+

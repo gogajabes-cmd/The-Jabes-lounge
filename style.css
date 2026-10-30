@@ -258,4 +258,9 @@ product-container {
     padding: 15px; 
     border-radius: 8px;
   }
+  product{
+    width:100px;
+     height:100px; 
+     object-fit:cover;
+  }
  
