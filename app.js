@@ -61,8 +61,6 @@ if (productContainer) {
         productContainer.appendChild(card);
         });
     }
-
-    // 3. Handle Add to Cart clicks using event delegation
     document.addEventListener("click", (e) => {
         if (e.target.tagName === "BUTTON" && e.target.textContent.trim().toLowerCase() === "add to cart") {
             const card = e.target.closest(".product-card");
@@ -72,7 +70,6 @@ if (productContainer) {
             const priceText = card.querySelector("p:nth-of-type(2)").textContent.replace(/[^0-9]/g, "");
             const price = parseInt(priceText, 10);
 
-            // Save to localStorage
             let cart = JSON.parse(localStorage.getItem("jabesCart")) || [];
             const existingItem = cart.find(item => item.name === name);
             
