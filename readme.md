@@ -21,7 +21,7 @@ A modern, responsive wine and spirits online shop designed for customers to expl
 
 - **HTML** 
 - **CSS**
-- **JSON DATAstorage****
+- **JSON DATAstorage**
 - **JAVASCRIPT**
 
 
