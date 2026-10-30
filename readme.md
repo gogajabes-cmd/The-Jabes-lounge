@@ -38,4 +38,3 @@ A modern, responsive wine and spirits online shop designed for customers to expl
 - **Vodka**
 - **Rare Spirits**
 - **Fine Wine**
-# 3. Future Improvements / Roadmap
